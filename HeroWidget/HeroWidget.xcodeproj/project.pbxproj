@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B330A0BD294E15E00065EBBD /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B330A0BC294E15E00065EBBD /* WidgetKit.framework */; };
+		B330A0BF294E15E00065EBBD /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B330A0BE294E15E00065EBBD /* SwiftUI.framework */; };
+		B330A0C2294E15E00065EBBD /* WidgetHeroBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B330A0C1294E15E00065EBBD /* WidgetHeroBundle.swift */; };
+		B330A0C4294E15E00065EBBD /* WidgetHeroLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B330A0C3294E15E00065EBBD /* WidgetHeroLiveActivity.swift */; };
+		B330A0C6294E15E00065EBBD /* WidgetHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = B330A0C5294E15E00065EBBD /* WidgetHero.swift */; };
+		B330A0C9294E15E20065EBBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B330A0C8294E15E20065EBBD /* Assets.xcassets */; };
+		B330A0CB294E15E20065EBBD /* WidgetHero.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = B330A0C7294E15E00065EBBD /* WidgetHero.intentdefinition */; };
+		B330A0CC294E15E20065EBBD /* WidgetHero.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = B330A0C7294E15E00065EBBD /* WidgetHero.intentdefinition */; };
+		B330A0CF294E15E20065EBBD /* WidgetHeroExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B330A0BA294E15E00065EBBD /* WidgetHeroExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B330A0D4294E164C0065EBBD /* HeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B4D7402943A49600BE24D5 /* HeroView.swift */; };
+		B330A0D5294E16510065EBBD /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B4D73E2943A2A100BE24D5 /* CircleImageView.swift */; };
+		B330A0D6294E16570065EBBD /* SuperHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B4D73C2943A0D100BE24D5 /* SuperHero.swift */; };
+		B330A0D7294E188E0065EBBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3B4D7322943A00600BE24D5 /* Assets.xcassets */; };
+		B3B4D72F2943A00500BE24D5 /* HeroWidgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B4D72E2943A00500BE24D5 /* HeroWidgetApp.swift */; };
+		B3B4D7312943A00500BE24D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B4D7302943A00500BE24D5 /* ContentView.swift */; };
+		B3B4D7332943A00600BE24D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3B4D7322943A00600BE24D5 /* Assets.xcassets */; };
+		B3B4D7362943A00600BE24D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3B4D7352943A00600BE24D5 /* Preview Assets.xcassets */; };
+		B3B4D73D2943A0D100BE24D5 /* SuperHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B4D73C2943A0D100BE24D5 /* SuperHero.swift */; };
+		B3B4D73F2943A2A100BE24D5 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B4D73E2943A2A100BE24D5 /* CircleImageView.swift */; };
+		B3B4D7412943A49600BE24D5 /* HeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B4D7402943A49600BE24D5 /* HeroView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B330A0CD294E15E20065EBBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3B4D7232943A00500BE24D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B330A0B9294E15E00065EBBD;
+			remoteInfo = WidgetHeroExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B330A0D3294E15E20065EBBD /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B330A0CF294E15E20065EBBD /* WidgetHeroExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B330A0B5294E13560065EBBD /* HeroWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HeroWidget.entitlements; sourceTree = "<group>"; };
+		B330A0BA294E15E00065EBBD /* WidgetHeroExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetHeroExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B330A0BC294E15E00065EBBD /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		B330A0BE294E15E00065EBBD /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		B330A0C1294E15E00065EBBD /* WidgetHeroBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetHeroBundle.swift; sourceTree = "<group>"; };
+		B330A0C3294E15E00065EBBD /* WidgetHeroLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetHeroLiveActivity.swift; sourceTree = "<group>"; };
+		B330A0C5294E15E00065EBBD /* WidgetHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetHero.swift; sourceTree = "<group>"; };
+		B330A0C7294E15E00065EBBD /* WidgetHero.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = WidgetHero.intentdefinition; sourceTree = "<group>"; };
+		B330A0C8294E15E20065EBBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B330A0CA294E15E20065EBBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B330A0D8294E189F0065EBBD /* WidgetHeroExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WidgetHeroExtension.entitlements; sourceTree = "<group>"; };
+		B3B4D72B2943A00500BE24D5 /* HeroWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3B4D72E2943A00500BE24D5 /* HeroWidgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroWidgetApp.swift; sourceTree = "<group>"; };
+		B3B4D7302943A00500BE24D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B3B4D7322943A00600BE24D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3B4D7352943A00600BE24D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3B4D73C2943A0D100BE24D5 /* SuperHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHero.swift; sourceTree = "<group>"; };
+		B3B4D73E2943A2A100BE24D5 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		B3B4D7402943A49600BE24D5 /* HeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B330A0B7294E15E00065EBBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B330A0BF294E15E00065EBBD /* SwiftUI.framework in Frameworks */,
+				B330A0BD294E15E00065EBBD /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3B4D7282943A00500BE24D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B330A0BB294E15E00065EBBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B330A0BC294E15E00065EBBD /* WidgetKit.framework */,
+				B330A0BE294E15E00065EBBD /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B330A0C0294E15E00065EBBD /* WidgetHero */ = {
+			isa = PBXGroup;
+			children = (
+				B330A0C1294E15E00065EBBD /* WidgetHeroBundle.swift */,
+				B330A0C3294E15E00065EBBD /* WidgetHeroLiveActivity.swift */,
+				B330A0C5294E15E00065EBBD /* WidgetHero.swift */,
+				B330A0C7294E15E00065EBBD /* WidgetHero.intentdefinition */,
+				B330A0C8294E15E20065EBBD /* Assets.xcassets */,
+				B330A0CA294E15E20065EBBD /* Info.plist */,
+			);
+			path = WidgetHero;
+			sourceTree = "<group>";
+		};
+		B3B4D7222943A00500BE24D5 = {
+			isa = PBXGroup;
+			children = (
+				B330A0D8294E189F0065EBBD /* WidgetHeroExtension.entitlements */,
+				B3B4D72D2943A00500BE24D5 /* HeroWidget */,
+				B330A0C0294E15E00065EBBD /* WidgetHero */,
+				B330A0BB294E15E00065EBBD /* Frameworks */,
+				B3B4D72C2943A00500BE24D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3B4D72C2943A00500BE24D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3B4D72B2943A00500BE24D5 /* HeroWidget.app */,
+				B330A0BA294E15E00065EBBD /* WidgetHeroExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3B4D72D2943A00500BE24D5 /* HeroWidget */ = {
+			isa = PBXGroup;
+			children = (
+				B330A0B5294E13560065EBBD /* HeroWidget.entitlements */,
+				B3B4D72E2943A00500BE24D5 /* HeroWidgetApp.swift */,
+				B3B4D7302943A00500BE24D5 /* ContentView.swift */,
+				B3B4D73C2943A0D100BE24D5 /* SuperHero.swift */,
+				B3B4D73E2943A2A100BE24D5 /* CircleImageView.swift */,
+				B3B4D7402943A49600BE24D5 /* HeroView.swift */,
+				B3B4D7322943A00600BE24D5 /* Assets.xcassets */,
+				B3B4D7342943A00600BE24D5 /* Preview Content */,
+			);
+			path = HeroWidget;
+			sourceTree = "<group>";
+		};
+		B3B4D7342943A00600BE24D5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B3B4D7352943A00600BE24D5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B330A0B9294E15E00065EBBD /* WidgetHeroExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B330A0D0294E15E20065EBBD /* Build configuration list for PBXNativeTarget "WidgetHeroExtension" */;
+			buildPhases = (
+				B330A0B6294E15E00065EBBD /* Sources */,
+				B330A0B7294E15E00065EBBD /* Frameworks */,
+				B330A0B8294E15E00065EBBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WidgetHeroExtension;
+			productName = WidgetHeroExtension;
+			productReference = B330A0BA294E15E00065EBBD /* WidgetHeroExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B3B4D72A2943A00500BE24D5 /* HeroWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3B4D7392943A00600BE24D5 /* Build configuration list for PBXNativeTarget "HeroWidget" */;
+			buildPhases = (
+				B3B4D7272943A00500BE24D5 /* Sources */,
+				B3B4D7282943A00500BE24D5 /* Frameworks */,
+				B3B4D7292943A00500BE24D5 /* Resources */,
+				B330A0D3294E15E20065EBBD /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B330A0CE294E15E20065EBBD /* PBXTargetDependency */,
+			);
+			name = HeroWidget;
+			productName = HeroWidget;
+			productReference = B3B4D72B2943A00500BE24D5 /* HeroWidget.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3B4D7232943A00500BE24D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					B330A0B9294E15E00065EBBD = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					B3B4D72A2943A00500BE24D5 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = B3B4D7262943A00500BE24D5 /* Build configuration list for PBXProject "HeroWidget" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3B4D7222943A00500BE24D5;
+			productRefGroup = B3B4D72C2943A00500BE24D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3B4D72A2943A00500BE24D5 /* HeroWidget */,
+				B330A0B9294E15E00065EBBD /* WidgetHeroExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B330A0B8294E15E00065EBBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B330A0D7294E188E0065EBBD /* Assets.xcassets in Resources */,
+				B330A0C9294E15E20065EBBD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3B4D7292943A00500BE24D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B4D7362943A00600BE24D5 /* Preview Assets.xcassets in Resources */,
+				B3B4D7332943A00600BE24D5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B330A0B6294E15E00065EBBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B330A0D6294E16570065EBBD /* SuperHero.swift in Sources */,
+				B330A0C6294E15E00065EBBD /* WidgetHero.swift in Sources */,
+				B330A0C4294E15E00065EBBD /* WidgetHeroLiveActivity.swift in Sources */,
+				B330A0CB294E15E20065EBBD /* WidgetHero.intentdefinition in Sources */,
+				B330A0C2294E15E00065EBBD /* WidgetHeroBundle.swift in Sources */,
+				B330A0D5294E16510065EBBD /* CircleImageView.swift in Sources */,
+				B330A0D4294E164C0065EBBD /* HeroView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3B4D7272943A00500BE24D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3B4D73F2943A2A100BE24D5 /* CircleImageView.swift in Sources */,
+				B3B4D7312943A00500BE24D5 /* ContentView.swift in Sources */,
+				B330A0CC294E15E20065EBBD /* WidgetHero.intentdefinition in Sources */,
+				B3B4D72F2943A00500BE24D5 /* HeroWidgetApp.swift in Sources */,
+				B3B4D73D2943A0D100BE24D5 /* SuperHero.swift in Sources */,
+				B3B4D7412943A49600BE24D5 /* HeroView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B330A0CE294E15E20065EBBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B330A0B9294E15E00065EBBD /* WidgetHeroExtension */;
+			targetProxy = B330A0CD294E15E20065EBBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B330A0D1294E15E20065EBBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = WidgetHeroExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59Z242YFKP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WidgetHero/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WidgetHero;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mesutalver.HeroWidget.WidgetHero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B330A0D2294E15E20065EBBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = WidgetHeroExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59Z242YFKP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WidgetHero/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WidgetHero;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mesutalver.HeroWidget.WidgetHero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B3B4D7372943A00600BE24D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3B4D7382943A00600BE24D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3B4D73A2943A00600BE24D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HeroWidget/HeroWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HeroWidget/Preview Content\"";
+				DEVELOPMENT_TEAM = 59Z242YFKP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mesutalver.HeroWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3B4D73B2943A00600BE24D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HeroWidget/HeroWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HeroWidget/Preview Content\"";
+				DEVELOPMENT_TEAM = 59Z242YFKP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mesutalver.HeroWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B330A0D0294E15E20065EBBD /* Build configuration list for PBXNativeTarget "WidgetHeroExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B330A0D1294E15E20065EBBD /* Debug */,
+				B330A0D2294E15E20065EBBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3B4D7262943A00500BE24D5 /* Build configuration list for PBXProject "HeroWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3B4D7372943A00600BE24D5 /* Debug */,
+				B3B4D7382943A00600BE24D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3B4D7392943A00600BE24D5 /* Build configuration list for PBXNativeTarget "HeroWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3B4D73A2943A00600BE24D5 /* Debug */,
+				B3B4D73B2943A00600BE24D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3B4D7232943A00500BE24D5 /* Project object */;
+}
