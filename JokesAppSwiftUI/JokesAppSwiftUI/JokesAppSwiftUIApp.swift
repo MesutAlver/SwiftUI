@@ -1,14 +1,14 @@
 //
-//  WeatherAppApp.swift
-//  WeatherApp
+//  JokesAppSwiftUIApp.swift
+//  JokesAppSwiftUI
 //
-//  Created by mesut alver on 20.12.2022.
+//  Created by mesut alver on 21.12.2022.
 //
 
 import SwiftUI
 
 @main
-struct WeatherAppApp: App {
+struct JokesAppSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
