@@ -11,10 +11,7 @@ struct ContentView: View {
     var body: some View {
         
         NavigationView{
-            
-            
             List {
-                
                 ForEach(myFavorites) { favorite in
                     Section(header: Text(favorite.title)) {
                         ForEach(favorite.elements) { element in

@@ -22,7 +22,7 @@ struct FavoriteElements : Identifiable {
     var description : String
 }
 
-// Movies
+// MARK: Movies
 let matrix = FavoriteElements(name: "Matrix", imagename: "matrix", description: "Keanu reeves's Best of")
 let starWars = FavoriteElements(name: "Star Wars", imagename: "StarWars", description: "Anakiiin :(")
 let lotr = FavoriteElements(name: "Lord Of The Rings", imagename: "lotr", description: "Legolas! what do your elf eyes see?")
@@ -32,7 +32,7 @@ let favoriteMovies = FavoriteModel(title: "Favorite Movies", elements: [matrix, 
 
 
 
-// Anime
+// MARK: Anime
 
 let naruto = FavoriteElements(name: "Naruto", imagename: "naruto", description: "Uzumaki Naruto!")
 let bleach = FavoriteElements(name: "Bleach", imagename: "bleach", description: "Kurosaki İchigo Shinigami!")
